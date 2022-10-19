@@ -1,5 +1,8 @@
 package com.example.springdemomongo;
 
+import lombok.Data;
+
+@Data
 public class Stats {
     private String attack;
     private String defense;
