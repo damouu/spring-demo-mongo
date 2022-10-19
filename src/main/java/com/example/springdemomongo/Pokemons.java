@@ -8,7 +8,7 @@ import java.util.List;
 //in MongoDB, a collection is a Table, and a document is an entry / a row in the table.
 //@Data
 @Document
-public class Pokemon {
+public class Pokemons {
     @Id
     private String id; //in mongoDB, we can not have a document without an id. like in SQL.
     private String img;
@@ -17,7 +17,7 @@ public class Pokemon {
     private Stats stats;
     private Moves moves;
 
-    public Pokemon(String img, String name) {
+    public Pokemons(String img, String name) {
         this.img = img;
         this.name = name;
     }
